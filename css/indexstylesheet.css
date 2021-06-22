@@ -1,0 +1,49 @@
+.box, .container > div {
+	border: solid;
+}
+
+.box {
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container .image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.container .overlay {
+	position: absolute;
+	bottom: 0;
+	background: black;
+	background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	transition: .5s ease;
+	opacity: 0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.container > div {
+	width: 45%;
+	text-align: center;
+	margin: 10px;
+	position: relative;
+	max-width: inherit;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+	opacity: 1;
+}

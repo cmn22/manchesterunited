@@ -1,0 +1,52 @@
+$color: white;
+
+%bordertype {
+  border: solid;
+}
+
+.box {
+  @extend %bordertype;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .image{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.container > div{
+    @extend %bordertype;
+    width: 45%;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    max-width: inherit;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
+}

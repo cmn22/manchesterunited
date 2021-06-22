@@ -1,0 +1,126 @@
+﻿.Main_Heading {
+    text-decoration: underline;
+}
+
+#AboutContent{
+    border: solid;
+    padding: 1em;
+    margin: 1em;
+    font-size: 0.9em;
+}
+#IndexList{
+    border: solid;
+}
+
+.FullImageContainer{
+    width: 100%;
+    border: solid;
+    text-align: center;
+    margin: 1em 0em 1em 0em;
+}
+
+.ScrollingImageContainer{
+    overflow: auto;
+    width: 100%;
+    white-space: nowrap;
+    border: solid;
+    margin: 1em 0em 1em 0em;
+}
+
+.ScrollingImageContainer > img {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.LargeImageContainerRight{
+    width: 50%;
+    float: right;
+    border: solid;
+    margin: 1em 0em 1em 1em;
+    text-align: center;
+}
+
+.LargeImageContainerLeft {
+    width: 50%;
+    float: left;
+    border: solid;
+    margin: 1em 1em 1em 0em;
+    text-align: center;
+}
+
+.SmallImageContainerRight{
+    width: 30%;
+    float: right;
+    border: solid;
+    margin: 1em 0em 1em 1em;
+    text-align: center;
+}
+
+.SmallImageContainerLeft{
+    float: left;
+    width: 30%;
+    border: solid;
+    margin: 0.5em 1em 0.5em 0em;
+    text-align: center;
+}
+
+.Kits_Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Kits_Container > div{
+    width: 200px;
+    border: solid;
+    text-align: center;
+    margin: 10px;
+}
+
+/*====================================Sponsorship Table======================================*/
+.tg  {
+    border-collapse:collapse;border-spacing:0;
+}
+
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:3px 6px;
+    word-break:normal;
+}
+
+.tg th {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:3px 6px;
+    word-break:normal;
+}
+
+.tg .tg-9wq8 {
+    border-color:inherit;
+    text-align:center;
+    vertical-align:middle
+}
+.tg .tg-c3ow {
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top
+}
+
+.tg .tg-amwm {
+    border-color:inherit;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
